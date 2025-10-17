@@ -1,0 +1,43 @@
+body{
+    background-image: url(Image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1{ 
+    background-color: #E62727;
+    border: #E62727 solid 5px;
+    margin: 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+p{
+    color: white;
+}
+
+button:hover{
+  background-color: #F3F2EC; 
+  color: white;              
+  border: none;              
+  padding: 10px 20px;        
+  border-radius: 8px;               
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+label{
+    color:#DCDCDC; 
+}
+input:hover{
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+
+div p{
+    color: #DCDCDC;
+}
