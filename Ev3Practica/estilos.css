@@ -19,23 +19,21 @@ p{
     color: white;
 }
 
-button:hover{
-  background-color: #F3F2EC; 
-  color: white;              
-  border: none;              
-  padding: 10px 20px;        
-  border-radius: 8px;               
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
+button{
+  background-color: #CBCBCB; 
+  color: rgb(194, 193, 193);              
+  border: none;                     
+  border-radius: 3px;               
+  
 }
 label{
     color:#DCDCDC; 
+    
 }
 input:hover{
-    background-color: aliceblue;
+    background-color: #C5C7BC;
     border-radius: 3px;
+    border: 2px solid black;
 }
 
 div p{
