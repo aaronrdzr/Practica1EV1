@@ -1,5 +1,5 @@
 body{
-    background-image: url(Image.jpg);
+    background-image: url(2804694.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -9,8 +9,8 @@ body{
 }
 
 h1{ 
-    background-color: #E62727;
-    margin: #E62727;
+    background-color: #FFD700;
+    margin: #FFD700;
     border: none;
     margin: 0;
     text-align: center;
@@ -20,7 +20,7 @@ h1{
     width: 100%;
 }
 hr{
-    border: 1px solid #E62727;
+    border: 1px solid #FFD700;
 }
 
 p{
