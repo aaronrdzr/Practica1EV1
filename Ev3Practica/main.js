@@ -1,10 +1,20 @@
 const botonBuscar= document.getElementById("botonBuscar");
+const inputPais = document.getElementById("pais");
+const nombre = document.getElementById("nombre");
+const capital= document.getElementById("capital");
+const monedas = document.getElementById("monedas");
+const lenguaje = document.getElementById("lenguaje");
+const bandera = document.getElementById("bandera"); 
 
 
-async function buscarPersonaje(){
-    const respuesta = await fetch("https://swapi.dev/api/people/"+ pais.value); 
-    const infoPais = await respuesta.json();
-    
+
+
+async function buscarPais(){
+   const respuesta = await fetch("https://restcountries.com/v3.1/name/"+ inputPais.value);
+   const info = await respuesta.json();
+   const infoPais= info[0];
+
+   console.log(infoPais.name.common);
     
 
 
@@ -19,5 +29,5 @@ async function buscarPersonaje(){
 
 botonBuscar.addEventListener("click", e =>{
     e.preventDefault();
-    buscarPersonaje();
+    buscarPais();
 })
