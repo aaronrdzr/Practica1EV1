@@ -1,5 +1,5 @@
 body{
-    background-image: url(2804694.jpg);
+    background-image: url(WhatsApp\ Image\ 2025-10-20\ at\ 1.14.30\ AM.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -9,8 +9,8 @@ body{
 }
 
 h1{ 
-    background-color: #FFD700;
-    margin: #FFD700;
+    background-color: #132440;
+    margin: #132440;
     border: none;
     margin: 0;
     text-align: center;
@@ -18,19 +18,20 @@ h1{
     display: block;
     padding: 15px 0 ;
     width: 100%;
+    color:bisque;
 }
 hr{
-    border: 1px solid #FFD700;
+    border: 1px solid #132440;
 }
 
 p{
-    color: white;
+    color: #DCDCDC;
     margin-bottom: 0;
 }
 
 button:active{
   background-color: #CBCBCB; 
-  color: rgb(194, 193, 193);              
+  color: rgb(149, 148, 148);              
   border: none;                     
   border-radius: 3px; 
              
@@ -41,7 +42,7 @@ label{
     
 }
 input:focus{
-    background-color: #C5C7BC;
+    background-color: #757673;
     border-radius: 3px;
     border: 2px solid black;
     
@@ -52,5 +53,9 @@ div p{
 }
 
 h2{
-    color: #DCDCDC;
+    color: bisque;
+}
+
+#nombre, #nombre2, #monedas, #capital, #bandera, #lenguaje{
+    color: #BF092F ;
 }
