@@ -56,6 +56,10 @@ h2{
     color: bisque;
 }
 
-#nombre, #nombre2, #monedas, #capital, #bandera, #lenguaje{
+#nombre, #nombre2, #horario, #capital, #bandera, #lenguaje{
     color: #BF092F ;
+}
+
+img{
+    width: 300px;
 }

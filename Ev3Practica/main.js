@@ -2,7 +2,7 @@ const botonBuscar= document.getElementById("botonBuscar");
 const inputPais = document.getElementById("pais");
 const nombre = document.getElementById("nombre");
 const capital= document.getElementById("capital");
-const monedas = document.getElementById("monedas");
+const horario= document.getElementById("horario"); 
 const lenguaje = document.getElementById("lenguaje");
 const bandera = document.getElementById("bandera"); 
 const nombre2 = document.getElementById("nombre2")
@@ -17,14 +17,14 @@ async function buscarPais(){
 
    console.log(infoPais.name.common);
     const idioma = Object.values(infoPais.languages);
-    const moneda = Object.values(infoPais.currencies);
+    
 
    nombre.innerText = infoPais.name.official;   
    nombre2.innerText= infoPais.name.common; 
-   lenguaje.innerText= idioma; 
-   monedas.innerText= moneda; 
+   lenguaje.innerText= idioma;  
    capital.innerText= infoPais.capital; 
-   bandera.src = infoPais.flags.svg; 
+   bandera.src = infoPais.flags.svg;
+   horario.innerText=infoPais.timezones; 
 
 
     
